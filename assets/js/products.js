@@ -5,7 +5,7 @@ const products = [
     name: "Madu Pahit",
     category: "Madu Premium",
     price: 120000,
-    image: "assets/images/products/madu_pahit.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/madu_pahit.png",
     description: "Madu herbal pahit premium dari lebah hutan, kaya enzim & antioksidan.",
     benefits: ["Menjaga daya tahan tubuh", "Membantu metabolisme", "Mendukung kesehatan hati"],
     composition: "100% Madu murni dari nektar bunga hutan"
@@ -15,7 +15,7 @@ const products = [
     name: "Centella Teh Sinergi",
     category: "Minuman Sehat",
     price: 70000,
-    image: "assets/images/products/centella_teh.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/centella_teh.png",
     description: "Teh herbal Centella asiatica (daun kaki kuda) untuk relaksasi & sirkulasi darah.",
     benefits: ["Meningkatkan sirkulasi", "Meredakan stres", "Membantu kesegaran mental"],
     composition: "Ekstrak Centella asiatica, daun teh hijau, stevia"
@@ -25,7 +25,7 @@ const products = [
     name: "Deep Olive",
     category: "Minyak Herba",
     price: 145000,
-    image: "assets/images/products/deep_olive.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/deep_olive.png",
     description: "Minyak zaitun extra virgin dengan campuran herbal sinergi untuk pijat & perawatan.",
     benefits: ["Mengurangi nyeri otot", "Melembutkan kulit", "Membantu relaksasi"],
     composition: "Olive oil, ekstrak jahe, serai, kayu putih, minyak bijan"
@@ -35,7 +35,7 @@ const products = [
     name: "Etta Goat Milk",
     category: "Minuman Sehat",
     price: 75000,
-    image: "assets/images/products/etta_goatmilk.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/etta_goatmilk.png",
     description: "Susu kambing etawa bubuk, tinggi kalsium & protein, mudah dicerna.",
     benefits: ["Memperkuat tulang", "Meningkatkan imunitas", "Cocok untuk lansia & anak"],
     composition: "Susu kambing etawa bubuk, madu, kurma"
@@ -45,7 +45,7 @@ const products = [
     name: "Madu Multiflora",
     category: "Madu Premium",
     price: 100000,
-    image: "assets/images/products/madu_multiflora.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/madu_multiflora.png",
     description: "Madu campur nektar berbagai bunga alami, rasa manis seimbang & kaya nutrisi.",
     benefits: ["Sumber energi alami", "Membantu pencernaan", "Menjaga kesehatan saluran napas"],
     composition: "100% madu multiflora murni"
@@ -55,7 +55,7 @@ const products = [
     name: "Madu Habbat",
     category: "Madu Premium",
     price: 130000,
-    image: "assets/images/products/madu_habbat.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/madu_habbat.png",
     description: "Madu premium dengan ekstrak habbatussauda (jinten hitam) untuk imunitas ekstra.",
     benefits: ["Meningkatkan daya tahan", "Anti-inflamasi alami", "Membantu kesehatan pernapasan"],
     composition: "Madu multiflora, ekstrak habbatussauda, minyak habbatussauda"
@@ -65,7 +65,7 @@ const products = [
     name: "HNI Coffee",
     category: "Minuman Sehat",
     price: 125000,
-    image: "assets/images/products/coffee_hni.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/coffee_hni.png",
     description: "Kopi herbal dengan madu & ginseng, tanpa gula tambahan.",
     benefits: ["Meningkatkan fokus", "Tanpa efek jantung berdebar", "Tanpa gula"],
     composition: "Kopi robusta, madu, ekstrak ginseng, jahe"
@@ -75,7 +75,7 @@ const products = [
     name: "Hania Susu Kambing Full Cream",
     category: "Minuman Sehat",
     price: 75000,
-    image: "assets/images/products/hania_goatmilk.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/hania_goatmilk.png",
     description: "Susu kambing full cream, tinggi lemak sehat & kalsium.",
     benefits: ["Meningkatkan berat badan sehat", "Memperkuat gigi & tulang", "Cocok untuk pemulihan"],
     composition: "Susu kambing full cream, madu"
@@ -85,7 +85,7 @@ const products = [
     name: "Sevel Stamina",
     category: "Minuman Sehat",
     price: 115000,
-    image: "assets/images/products/sevel_stamina.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/sevel_stamina.png",
     description: "Minuman herbal penambah stamina pria & wanita, berbasis madu & ginseng.",
     benefits: ["Meningkatkan vitalitas", "Mengurangi kelelahan", "Meningkatkan daya tahan"],
     composition: "Madu, ekstrak ginseng, tribulus, purwoceng"
@@ -95,7 +95,7 @@ const products = [
     name: "Hania Cappuccino Less Sugar",
     category: "Minuman Sehat",
     price: 50000,
-    image: "assets/images/products/hania_realco.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/hania_realco.png",
     description: "Cappuccino rendah gula dengan susu kambing & madu.",
     benefits: ["Rendah gula", "Rasa nikmat tanpa bersalah", "Cocok untuk diet"],
     composition: "Kopi, susu kambing, madu, stevia"
@@ -105,7 +105,7 @@ const products = [
     name: "Madu HNI Health",
     category: "Madu Premium",
     price: 80000,
-    image: "assets/images/products/madu_hni_health.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/madu_hni_health.png",
     description: "Madu harian keluarga, diformulasi khusus untuk kesehatan menyeluruh.",
     benefits: ["Pemeliharaan kesehatan harian", "Aman untuk anak & dewasa", "Rasa manis alami"],
     composition: "Madu multiflora, propolis, royal jelly"
@@ -115,7 +115,7 @@ const products = [
     name: "Hania Gluta Juicy Drink",
     category: "Minuman Sehat",
     price: 185000,
-    image: "assets/images/products/hania_gluta.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/hania_gluta.png",
     description: "Minuman glutation untuk kulit cerah & antioksidan tinggi.",
     benefits: ["Mencerahkan kulit", "Anti penuaan", "Detoks alami"],
     composition: "Glutation, vitamin C, ekstrak delima, madu"
@@ -125,7 +125,7 @@ const products = [
     name: "Mahkota Dara",
     category: "Aneka Herbal",
     price: 200000,
-    image: "assets/images/products/mahkota_dara.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/mahkota_dara.png",
     description: "Herbal khusus wanita untuk kesegaran & kesehatan reproduksi.",
     benefits: ["Menjaga kesehatan organ kewanitaan", "Mengurangi keputihan", "Menyeimbangkan hormon"],
     composition: "Ekstrak daun sirih, kunyit, temu lawak, mahkota dewa"
@@ -135,7 +135,7 @@ const products = [
     name: "Habbatusauda Kapsul",
     category: "Aneka Herbal",
     price: 60000,
-    image: "assets/images/products/habbatussauda.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/habbatussauda.png",
     description: "Kapsul habbatussauda 100% murni, untuk imunitas & kesehatan jantung.",
     benefits: ["Meningkatkan imunitas", "Menurunkan kolesterol", "Anti radang"],
     composition: "100% minyak habbatussauda murni"
@@ -145,7 +145,7 @@ const products = [
     name: "Minyak Herba Sinergi Hot",
     category: "Minyak Herba",
     price: 55000,
-    image: "assets/images/products/minyak_herba_hot.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/minyak_herba_hot.png",
     description: "Minyak gosok hangat untuk nyeri otot, pegal, dan masuk angin.",
     benefits: ["Menghangatkan tubuh", "Mengurangi nyeri sendi", "Meredakan masuk angin"],
     composition: "Minyak kelapa, jahe, serai, kayu putih, cengkeh"
@@ -155,7 +155,7 @@ const products = [
     name: "Zareen Bright Glow Serum",
     category: "Perawatan Kulit",
     price: 70000,
-    image: "assets/images/products/zareen_serum.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/zareen_serum.png",
     description: "Serum wajah herbal untuk mencerahkan & melembabkan kulit.",
     benefits: ["Mencerahkan kulit", "Mengurangi noda", "Melembabkan alami"],
     composition: "Ekstrak licorice, niacinamide alami, aloe vera, madu"
@@ -165,7 +165,7 @@ const products = [
     name: "Sabun Kolagen",
     category: "Perawatan Kulit",
     price: 25000,
-    image: "assets/images/products/sabun_kolagen.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/sabun_kolagen.png",
     description: "Sabun herbal dengan kolagen alami untuk kekenyalan kulit.",
     benefits: ["Mengencangkan kulit", "Mengurangi keriput", "Mengangkat kotoran"],
     composition: "Kolagen ikan, susu kambing, ekstrak chamomile"
@@ -175,7 +175,7 @@ const products = [
     name: "Hibis Pantyliner",
     category: "Perawatan Pribadi",
     price: 225000,
-    image: "assets/images/products/hibis_panty.png",
+    image: "https://argea-gh.github.io/myweb16/assets/images/products/hibis_panty.png",
     description: "Pantyliner herbal dengan ekstrak daun sirih & chamomile.",
     benefits: ["Menjaga kesegaran", "Anti bakteri alami", "Aman untuk sensitif"],
     composition: "Kapas organik, ekstrak daun sirih, chamomile, tea tree oil"
