@@ -150,53 +150,65 @@ body {
   top: 0;
 }
 
+/* ────────────────────────────────────────── */
+/* HEADER — PERBAIKAN VERTICAL ALIGNMENT */
+/* ────────────────────────────────────────── */
+
 .header-inner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /* ✅ tetap pakai ini */
   padding: 10px 0;
+}
+
+/* Perbaiki alignment untuk .logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* jarak antar gambar & teks */
+  text-decoration: none;
 }
 
 .logo img {
   height: 60px;
   object-fit: contain;
-}
-
-.header .logo,
-.header .logo .site-title {
-  text-decoration: none;
-}
-
-.header .logo:hover,
-.header .logo .site-title:hover {
-  text-decoration: none;
+  flex-shrink: 0; /* jangan diperkecil */
 }
 
 .site-title {
   font-size: 1.6rem;
   font-weight: 700;
   color: var(--green-dark);
-  margin-left: 12px;
   white-space: nowrap;
+  margin: 0; /* hapus margin-left */
+  line-height: 1; /* sesuaikan tinggi teks */
 }
 
+/* Pastikan menu navigasi juga sejajar vertikal */
 .nav-menu ul {
   display: flex;
   list-style: none;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-menu a {
-  padding: 10px 0; /* tambahkan padding vertikal pada link */
+  padding: 10px 0;
   text-decoration: none;
   color: var(--text-dark);
   font-weight: 500;
   transition: var(--transition);
+  display: flex;
+  align-items: center;
+  min-height: 60px; /* sama dengan tinggi logo */
 }
 
 .nav-menu a:hover {
   color: var(--green-primary);
 }
+
+/* END - PERBAIKAN VERTICAL ALIGNMENT */
 
 .hamburger {
   display: none;
