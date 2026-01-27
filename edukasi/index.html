@@ -1,0 +1,14 @@
+<!-- Tampilkan daftar artikel dari localStorage -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const articles = JSON.parse(localStorage.getItem('herbaprima_education_articles') || '[]');
+    const container = document.getElementById('articles');
+    container.innerHTML = articles.map(a => `
+      <div class="article-item">
+        <h3><a href="detail.html?id=${a.id}">${a.title}</a></h3>
+        <p>${a.summary || ''}</p>
+        <small>${new Date(a.createdAt).toLocaleDateString('id-ID')}</small>
+      </div>
+    `).join('');
+  });
+</script>
