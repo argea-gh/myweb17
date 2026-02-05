@@ -179,6 +179,16 @@ const products = [
     description: "Pantyliner herbal dengan ekstrak daun sirih & chamomile.",
     benefits: ["Menjaga kesegaran", "Anti bakteri alami", "Aman untuk sensitif"],
     composition: "Kapas organik, ekstrak daun sirih, chamomile, tea tree oil"
+  },
+    {
+    id: "zidavit",
+    name: "Madu Zidavit",
+    category: "madu Premium",
+    price: 80000,
+    image: "assets/images/products/madu_zidavit.webp",
+    description: "Suplemen multivitamin alami berbentuk cairan oral yang diformulasikan khusus untuk mendukung masa keemasan (golden age) pertumbuhan anak. Produk ini mengombinasikan kebaikan madu murni dengan ekstrak herbal pilihan serta minyak ikan sidat untuk memberikan nutrisi lengkap bagi tubuh dan otak anak. Dengan rasa jeruk yang segar, Zidavit menjadi solusi praktis bagi orang tua untuk memastikan buah hati tetap sehat dan cerdas.",
+    benefits: ["Menjaga kesegaran", "Anti bakteri alami", "Aman untuk sensitif"],
+    composition: "Kapas organik, ekstrak daun sirih, chamomile, tea tree oil"
   }
 ];
 
